@@ -10,7 +10,7 @@ const sendSendGridEmail = require('../utils/core/sendSendGridEmail')
 const logError = require('./utils/logError')
 
 const dev = process.env.NODE_ENV !== 'production'
-const port = process.env.PORT || process.env.NODE_PORT || 5005
+const port = process.env.PORT || process.env.NODE_PORT || 5000
 const app = next({ dev })
 const handle = app.getRequestHandler()
 

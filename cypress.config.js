@@ -12,6 +12,6 @@ module.exports = defineConfig({
 
       return { env }
     },
-    baseUrl: 'http://localhost:5005',
+    baseUrl: 'http://localhost:5000',
   },
 })
