@@ -13,6 +13,7 @@ import {
   DiscoveryImage,
   ContactForm,
   NoComponent,
+  MyComponent
 } from '../..'
 
 export default function ContentElements(props) {
@@ -34,6 +35,7 @@ export default function ContentElements(props) {
     'video-teaser': TeaserVideo,
     'discovery-image': DiscoveryImage,
     'contact-form': ContactForm,
+    'mycomponent': MyComponent
   }
   return (
     <>
