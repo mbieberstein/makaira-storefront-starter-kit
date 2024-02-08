@@ -14,7 +14,7 @@ import {
   ContactForm,
   NoComponent,
   CustomTeaserProducts,
-  MyComponent
+  MyComponent,
 } from '../..'
 
 export default function ContentElements(props) {
@@ -36,6 +36,8 @@ export default function ContentElements(props) {
     'video-teaser': TeaserVideo,
     'discovery-image': DiscoveryImage,
     'contact-form': ContactForm,
+    'custom-teaser-products': CustomTeaserProducts,
+    mycomponent: MyComponent,
   }
   return (
     <>
