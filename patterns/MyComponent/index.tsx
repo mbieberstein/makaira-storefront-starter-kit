@@ -1,24 +1,19 @@
 import { Component } from "react"
 import Image from "./Image"
 import Products from "./Products"
+import { MyComponentProps } from "./MyComponentProps"
 
 
-class MyComponent extends Component {
+class MyComponent extends Component<MyComponentProps> {
 
   render() {
-
-    const {
-      text = 'Text',
-      image = {},
-      products = []
-    } = this.props
 
     return (
       <section className="my-component">
 
-        <div>{text}</div>
-        <Image {...image} />
-        <Products products={products} />
+        <h2>{this.props.text}</h2>
+        <Image {...this.props.image} />
+        <Products products={this.props.products} />
 
       </section>
     )

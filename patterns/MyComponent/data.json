@@ -1,0 +1,19 @@
+{
+    "text":"Ex quo culpa aut eum aperiam ducimus ipsum.",
+    "image":{
+    "image":"http://lorempixel.com/640/480/cats",
+    "spots":[
+        {
+        "left":63,
+        "right":45
+        }
+        ]
+    },
+    "products":[
+        {
+        "id":"1810fd91-9f82-4881-8496-b9951c583264",
+        "title":"Handmade Rubber Shoes",
+        "image":"http://lorempixel.com/640/480/abstract"
+        }
+  ]
+}
